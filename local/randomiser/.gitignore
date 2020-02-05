@@ -1,0 +1,7 @@
+.idea
+README*
+nebensachen
+!plugins/randomiser/classes/*
+!plugins/randomiser/db/*
+!plugins/randomiser/lang/*
+*.odt

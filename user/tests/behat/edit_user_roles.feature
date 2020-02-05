@@ -14,10 +14,11 @@ Feature: Edit user roles
       | fullname | shortname | format |
       | Course 1 | C1        | topics |
     And the following "course enrolments" exist:
-      | user      | course | role           |
-      | teacher1  | C1     | editingteacher |
-      | student1  | C1     | student        |
-      | student2  | C1     | student        |
+      | user     | course | role           |
+      | teacher1 | C1     | editingteacher |
+      | student1 | C1     | student        |
+      | student2 | C1     | student        |
+      | student3 | C1     | student        |
 
   @javascript
   Scenario: Assign roles on participants page
